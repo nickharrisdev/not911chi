@@ -1,0 +1,20 @@
+{
+  "title": "Fungal Musings",
+  "url": "https://blog.motherfung.us/",
+  "description": "My attempts to wrangle my thoughts and share them.",
+  "feed": {
+    "subtitle": "A torrid journey through the mind of an itinerant degenerate.",
+    "filename": "feed.xml",
+    "path": "/feed/feed.xml",
+    "id": "https://example.com/"
+  },
+  "jsonfeed": {
+    "path": "/feed/feed.json",
+    "url": "https://example.com/feed/feed.json"
+  },
+  "author": {
+    "name": "Nick Harris",
+    "email": "nick@nickharris.me",
+    "url": "nickharris.me"
+  }
+}

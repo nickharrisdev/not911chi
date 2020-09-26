@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+	<title>Fungal Musings</title>
+	<subtitle>A torrid journey through the mind of an itinerant degenerate.</subtitle>
+	
+	<link href="https://blog.motherfung.us/feed/feed.xml" rel="self"/>
+	<link href="https://blog.motherfung.us/"/>
+	<updated>2020-09-04T19:00:00-05:00</updated>
+	<id>https://example.com/</id>
+	<author>
+		<name>Nick Harris</name>
+		<email>nick@nickharris.me</email>
+	</author>
+	
+	<entry>
+		<title>1 Minute Songs</title>
+		<link href="https://blog.motherfung.us/posts/albumidea/"/>
+		<updated>2020-09-04T19:00:00-05:00</updated>
+		<id>https://blog.motherfung.us/posts/albumidea/</id>
+		<content type="html">&lt;p&gt;I had this idea today to create an album of 1 minute songs. I was listening to the audiobook “How to Do Nothing” by Jenny O’Dell, which in part centers on the way that the “attention economy” (brought about by new media/social media on the internet) intentionally fries users’ ability to deeply focus and be present. Modern attention spans are completely shot. So I thought, why not create a piece of music that reflects that reality in its form? A frenzied series of 1 minute recordings which never really provided a deep sense of satisfaction, just momentary stimulation, and then on to the next thing. Good way to get back into the habit of writing music too. Later, I remembered Tierra Whack’s amazing album from last year that is essentially the exact same idea, and is more directly focused on working within the stringent boundaries that Instagram specifically places on video — 1 minute maximum duration. Everything&#39;s been done, hasn&#39;t it? (I don&#39;t really believe that - was just thinking the other day about the infinite potentiality of music) Still, I think it would be worth experimenting with, whether I end up sharing the music or not.&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>The Lake Today</title>
+		<link href="https://blog.motherfung.us/posts/laketoday/"/>
+		<updated>2020-09-03T19:00:00-05:00</updated>
+		<id>https://blog.motherfung.us/posts/laketoday/</id>
+		<content type="html">&lt;p&gt;Gentle, slow-rolling waves on the lake today. Like an enormous, horizontal tapestry billowing in slow motion. So quiet and soft, yet deeply powerful.&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>Fungus is Cool</title>
+		<link href="https://blog.motherfung.us/posts/secondpost/"/>
+		<updated>2020-08-16T19:00:00-05:00</updated>
+		<id>https://blog.motherfung.us/posts/secondpost/</id>
+		<content type="html">&lt;p&gt;It draws its life from dead organic matter, and in doing so, helps along the process of converting that matter back into the earth to be eventually be reformed, perhaps again as a living organic matter. That is a pretty profound and potentially symbolic role to play in the world of living things, and is arguably the link that forms what is often thought of as “the circle of life” (cue Elton John). This may be a stretch, but I think the act of writing, perhaps some other art forms too, is the fungus of thoughts, the fungus of experience. Experiences, thoughts are fleeting and occur in a specific moment and then are gone, or dead. They become memory instantaneously after they occur, and writing can grow out of these memories of fleeting moments, making sense of them and clearing the way for new thoughts and experiences to occur.&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>Hello World!</title>
+		<link href="https://blog.motherfung.us/posts/firstpost/"/>
+		<updated>2020-08-11T19:00:00-05:00</updated>
+		<id>https://blog.motherfung.us/posts/firstpost/</id>
+		<content type="html">&lt;p&gt;Lately, and for a while now, scrolling through social media I get the feeling that I have a worm in my brain with its slimy body wrapped around the controls, forcing me to continue scrolling, reading the next bit of new content, most of it designed to inflict some level of instant emotional response or hit of dopamine, which I imagine to be the main sustenance of this invertebrate. Why? Because even though I know at my core I’m in no way benefiting from this activity (and often times in fact I’m negatively affected), I can’t stop scrolling, taking in more content, and marinating in the brain chemicals, whatever emotions and feelings that are triggered in me. It’s like watching a car accident and being unable to look away, except I’m also seeing my friends, family, and random acquaintances comment and share their own (sometimes insightful, but often poorly thought through, occasionally offensive and disappointing) thoughts on the crash.&lt;/p&gt;
+&lt;p&gt;I suppose the brain worm is part of the impetus of my starting this blog. Writing out my thoughts, observations, opinions, etc very deliberately in a longer form like this has sort of the opposite affect on me that scrolling through short, triggering posts and comment threads has. It can be profoundly calming and provides some clarity and perspective. I wanted a space on the web to post my thoughts about what’s going on in my life and in the world that’s not tied to any brain worm-breeding personal information-harvesting (that’s a post for another day) platform. So here I am.&lt;/p&gt;
+&lt;p&gt;And that&#39;s not the only reason I&#39;m here, writing this. But I&#39;ll get to the others another day.&lt;/p&gt;
+</content>
+	</entry>
+</feed>
