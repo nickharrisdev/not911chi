@@ -13,22 +13,22 @@
     <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@500&display=swap" rel="stylesheet">
   </head>
   <body>
-    <header>
-      <div class="nav-container">
-        <h1 class="home rainbow-text">
-          <a href="{{ '/' | url }}">{{ metadata.title }}</a>
+    <div class="content-container">
+      <header>
+        <h1 class="home">
+          <a class="rainbow-text" href="{{ '/' | url }}">{{ metadata.title }}</a>
         </h1>
 
         {#- Read more about `eleventy-navigation` at https://www.11ty.dev/docs/plugins/navigation/ #}
-      </div>
-    </header>
+      </header>
 
-    <main{% if templateclass %} class="{{ templateClass }}" {% endif %}>
-      {{ content | safe }}
-    </main>
+      <main{% if templateclass %} class="{{ templateClass }}" {% endif %}>
+        {{ content | safe }}
+      </main>
 
-    <footer></footer>
+      <footer></footer>
 
-    <!-- Current page: {{ page.url | url }} -->
+      <!-- Current page: {{ page.url | url }} -->
+    </div>
   </body>
 </html>

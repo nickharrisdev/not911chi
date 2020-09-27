@@ -21,14 +21,9 @@ body {
 }
 
 .rainbow-text {
-  background-image: repeating-linear-gradient(45deg, #1a5c06, green, yellow);
   text-align: center;
-  background-size: 90%;
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  font-size: 24px;
-  animation: rainbow 8s ease infinite;
+  font-size: 36px;
+  color: white;
 }
 p:last-child {
   margin-bottom: 0;
@@ -43,17 +38,27 @@ p,
   line-height: 1.45;
 }
 a[href] {
-  color: var(--gray);
+  color: white;
 }
 a[href]:visited {
-  color: var(--gray);
+  color: white;
 }
 main {
   padding: 1rem;
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
+  margin: auto;
+  max-width: 800px;
 }
+/* .content-container {
+  max-width: 900px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: auto;
+} */
 main :first-child {
   margin-top: 0;
 }
@@ -70,8 +75,6 @@ header:after {
 .nav-container {
   width: 100%;
   display: flex;
-  justify-content: right;
-  flex-direction: row;
 }
 table {
   margin: 1em 0;
@@ -152,11 +155,11 @@ pre {
   padding: 0;
   list-style: none;
   float: left;
-  margin-left: 1em;
+  width: 100%;
 }
 .nav-item {
   /* display: inline-block; */
-  margin-right: 1em;
+  margin-top: 5px !important;
 }
 .nav-item a[href]:not(:hover) {
   text-decoration: none;
@@ -201,6 +204,40 @@ pre {
   font-weight: 700;
 }
 
+.bl-container {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.back-link {
+  text-decoration: none;
+  justify-content: right;
+}
+
+.emergency {
+  background-color: rgb(255, 55, 55);
+  text-decoration: none;
+  width: 100%;
+  height: 40px;
+  padding-top: 10px;
+  text-align: center;
+  border: 0px black solid;
+  border-radius: 5px;
+}
+
+.entry-link {
+  width: 100%;
+  height: 40px;
+  background-color: blueviolet;
+  padding-top: 10px;
+  padding-left: 10px;
+  text-decoration: none;
+  border: 0px black solid;
+  border-radius: 5px;
+  display: inline-block;
+}
+
 /* Tags */
 .post-tag {
   display: inline-block;
@@ -216,7 +253,7 @@ pre {
 }
 a[href].post-tag,
 a[href].post-tag:visited {
-  color: #fff;
+  color: white;
 }
 
 /* Warning */
@@ -237,11 +274,11 @@ a[href].post-tag:visited {
 }
 a[href].direct-link,
 a[href].direct-link:visited {
-  color: transparent;
+  color: white;
 }
 a[href].direct-link:focus,
 a[href].direct-link:focus:visited,
 :hover > a[href].direct-link,
 :hover > a[href].direct-link:visited {
-  color: #aaa;
+  color: white;
 }
