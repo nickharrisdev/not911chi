@@ -1,9 +1,9 @@
 {
-  "title": "Fungal Musings",
-  "url": "https://blog.motherfung.us/",
-  "description": "My attempts to wrangle my thoughts and share them.",
+  "title": "Not 911 Chicago",
+  "url": "https://not911.motherfung.us",
+  "description": "Providing alternatives to dialing 911 in Non-Emergency situations",
   "feed": {
-    "subtitle": "A torrid journey through the mind of an itinerant degenerate.",
+    "subtitle": "911 isn't always the answer",
     "filename": "feed.xml",
     "path": "/feed/feed.xml",
     "id": "https://example.com/"
