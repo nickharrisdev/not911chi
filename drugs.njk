@@ -1,0 +1,12 @@
+---
+layout: layouts/home.njk
+permalink: /drugs/
+eleventyNavigation:
+  key: Drugs and Poisoning
+  order: 5
+---
+
+<h1>Violence</h1>
+
+{% set resourcelist = collections.drugs %}
+{% include "resourcelist.njk" %}

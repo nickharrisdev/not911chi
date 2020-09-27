@@ -1,0 +1,12 @@
+---
+layout: layouts/home.njk
+permalink: /homelessness/
+eleventyNavigation:
+  key: Homelessness
+  order: 6
+---
+
+<h1>Homelessness</h1>
+
+{% set resourcelist = collections.homelessness %}
+{% include "resourcelist.njk" %}

@@ -1,0 +1,12 @@
+---
+layout: layouts/home.njk
+permalink: /legal/
+eleventyNavigation:
+  key: Legal Support
+  order: 7
+---
+
+<h1>Legal Support</h1>
+
+{% set resourcelist = collections.legal %}
+{% include "resourcelist.njk" %}
