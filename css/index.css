@@ -15,8 +15,7 @@ html,
 body {
   padding: 0;
   margin: 0;
-  font-family: "Lora", "Palatino Linotype", "Book Antiqua", "New York",
-    "DejaVu serif", serif;
+  font-family: "Inconsolata", monospace;
   color: var(--white);
   background-color: black;
 }
@@ -69,8 +68,10 @@ header:after {
   clear: both;
 }
 .nav-container {
-  width: 640px;
+  width: 100%;
+  display: flex;
   justify-content: right;
+  flex-direction: row;
 }
 table {
   margin: 1em 0;
@@ -82,8 +83,7 @@ table th {
 
 pre,
 code {
-  font-family: "Lora", "Palatino Linotype", "Book Antiqua", "New York",
-    "DejaVu serif", serif;
+  font-family: "Inconsolata", monospace;
   line-height: 1.5;
 }
 pre {
@@ -155,7 +155,7 @@ pre {
   margin-left: 1em;
 }
 .nav-item {
-  display: inline-block;
+  /* display: inline-block; */
   margin-right: 1em;
 }
 .nav-item a[href]:not(:hover) {
@@ -230,8 +230,7 @@ a[href].post-tag:visited {
 
 /* Direct Links / Markdown Headers */
 .direct-link {
-  font-family: "Lora", "Palatino Linotype", "Book Antiqua", "New York",
-    "DejaVu serif", serif;
+  font-family: "Inconsolata", monospace;
   text-decoration: none;
   font-style: normal;
   margin-left: 0.1em;

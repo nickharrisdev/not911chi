@@ -1,15 +1,15 @@
 ---
 layout: layouts/home.njk
-eleventyNavigation:
-  key: Home
-  order: 1
+
 ---
 
-<h1>Latest Posts</h1>
-
-{% set postslist = collections.posts %}
-{% set postslistCounter = collections.posts | length %}
-{% include "postslist.njk" %}
-
-<p>More posts can be found in
-  <a href="{{ '/posts/' | url }}">the archive</a>.</p>
+{# <h1>Latest Posts</h1> #}
+<div class="nav-container">
+  <ul class="nav">
+    {%- for entry in collections.all | eleventyNavigation %}
+      <li class="nav-item{% if entry.url == page.url %} nav-item-active{% endif %}">
+        <a href="{{ entry.url | url }}">{{ entry.title }}</a>
+      </li>
+    {%- endfor %}
+  </ul>
+</div>
