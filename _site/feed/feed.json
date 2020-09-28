@@ -1,7 +1,7 @@
 {
   "version": "https://jsonfeed.org/version/1",
   "title": "Not 911 Chicago",
-  "home_page_url": "https://not911.motherfung.us",
+  "home_page_url": "https://not911.nickharris.me",
   "feed_url": "https://example.com/feed/feed.json",
   "description": "Providing alternatives to dialing 911 in Non-Emergency situations",
   "author": {
@@ -9,8 +9,8 @@
     "url": "nickharris.me"
   },
   "items": [{
-      "id": "https://not911.motherfung.us/posts/firstpost/",
-      "url": "https://not911.motherfung.us/posts/firstpost/",
+      "id": "https://not911.nickharris.me/posts/firstpost/",
+      "url": "https://not911.nickharris.me/posts/firstpost/",
       "title": "Hello World!",
       "content_html": "",
       "date_published": "2020-08-11T19:00:00-05:00"
