@@ -30,6 +30,7 @@
     "markdown-it-anchor": "^5.2.5"
   },
   "dependencies": {
-    "eleventy": "^1.0.6"
+    "eleventy": "^1.0.6",
+    "eleventy-plugin-pwa": "^1.0.8"
   }
 }
