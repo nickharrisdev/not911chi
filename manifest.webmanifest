@@ -7,7 +7,7 @@
   "description": "A PWA that provides alternatives to calling 911 in emergency situations",
   "icons": [
     {
-      "src": "img/icon-192x192.png",
+      "src": "img/N911logo.png",
       "sizes": "192x192",
       "type": "image/png"
     }
