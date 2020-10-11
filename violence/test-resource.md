@@ -1,7 +1,7 @@
 ---
-title: Resource 1
-description: This is a test resource
+title: National Domestic Violence Hotline
+description:
 hours: 24 hour access
-phone: 1-800-testing
+phone: 1-800-799-7233
 layout: layouts/resource.njk
 ---
