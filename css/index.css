@@ -238,6 +238,28 @@ pre {
   display: inline-block;
 }
 
+.phone-link {
+  background-color: rgb(116, 196, 116);
+  padding: 10px;
+  border-radius: 100%;
+}
+
+.resource-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.resource-container h2 {
+  margin: 5px;
+}
+.resource-container h3 {
+  margin: 5px;
+}
+.resource-container p {
+  margin: 5px;
+}
+
 /* Tags */
 .post-tag {
   display: inline-block;
