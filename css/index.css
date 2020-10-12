@@ -248,6 +248,7 @@ pre {
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-top: 25px;
 }
 
 .resource-container h2 {
@@ -258,6 +259,15 @@ pre {
 }
 .resource-container p {
   margin: 5px;
+}
+
+.collection-title {
+  border: 1px dashed blueviolet;
+  padding: 10px;
+}
+
+.resource-title {
+  color: rgb(116, 196, 116);
 }
 
 /* Tags */

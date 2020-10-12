@@ -1,7 +1,7 @@
 <div class="resource-list">
   {% for resource in resourcelist %}
     <div class="resource-container">
-      <h2>{{ resource.data.title }}</h2>
+      <h2 class="resource-title">{{ resource.data.title }}</h2>
       {%- if resource.data.description.length > 1 -%}
         <!-- TODO: add link to show more info -->
         <h3>{{ resource.data.description }}</h3>
