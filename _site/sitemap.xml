@@ -17,12 +17,12 @@
   </url>
   
   <url>
-    <loc>https://not911.nickharris.me/tags/homelessness/</loc>
+    <loc>https://not911.nickharris.me/tags/drugs/</loc>
     <lastmod>2020-08-11</lastmod>
   </url>
   
   <url>
-    <loc>https://not911.nickharris.me/tags/drugs/</loc>
+    <loc>https://not911.nickharris.me/tags/homelessness/</loc>
     <lastmod>2020-08-11</lastmod>
   </url>
   
@@ -47,77 +47,17 @@
   </url>
   
   <url>
-    <loc>https://not911.nickharris.me/about/</loc>
-    <lastmod>2020-08-13</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://not911.nickharris.me/violence/national-domestic-violence-hotline/</loc>
-    <lastmod>2020-09-27</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://not911.nickharris.me/violence/</loc>
-    <lastmod>2020-09-27</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://not911.nickharris.me/violence/CCCofElgin/</loc>
-    <lastmod>2020-09-27</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://not911.nickharris.me/drugs/</loc>
-    <lastmod>2020-09-27</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://not911.nickharris.me/legal/</loc>
-    <lastmod>2020-09-27</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://not911.nickharris.me/homelessness/</loc>
-    <lastmod>2020-09-27</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://not911.nickharris.me/mental-health/</loc>
-    <lastmod>2020-09-27</lastmod>
-  </url>
-  
-  <url>
     <loc>https://not911.nickharris.me/</loc>
     <lastmod>2020-09-27</lastmod>
   </url>
   
   <url>
-    <loc>https://not911.nickharris.me/mental-health/CCCofElginMental/</loc>
+    <loc>https://not911.nickharris.me/about/</loc>
     <lastmod>2020-10-12</lastmod>
   </url>
   
   <url>
-    <loc>https://not911.nickharris.me/mental-health/suicide-hotline/</loc>
-    <lastmod>2020-10-12</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://not911.nickharris.me/mental-health/UIC/</loc>
-    <lastmod>2020-10-12</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://not911.nickharris.me/homelessness/ignite/</loc>
-    <lastmod>2020-10-12</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://not911.nickharris.me/homelessness/chi-tenants/</loc>
-    <lastmod>2020-10-12</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://not911.nickharris.me/drugs/poison-control/</loc>
+    <loc>https://not911.nickharris.me/drugs/</loc>
     <lastmod>2020-10-12</lastmod>
   </url>
   
@@ -127,7 +67,32 @@
   </url>
   
   <url>
-    <loc>https://not911.nickharris.me/legal/lawyers-guild/</loc>
+    <loc>https://not911.nickharris.me/drugs/poison-control/</loc>
+    <lastmod>2020-10-12</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://not911.nickharris.me/homelessness/</loc>
+    <lastmod>2020-10-12</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://not911.nickharris.me/homelessness/CCH/</loc>
+    <lastmod>2020-10-12</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://not911.nickharris.me/homelessness/chi-tenants/</loc>
+    <lastmod>2020-10-12</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://not911.nickharris.me/homelessness/ignite/</loc>
+    <lastmod>2020-10-12</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://not911.nickharris.me/legal/</loc>
     <lastmod>2020-10-12</lastmod>
   </url>
   
@@ -137,7 +102,42 @@
   </url>
   
   <url>
-    <loc>https://not911.nickharris.me/homelessness/CCH/</loc>
+    <loc>https://not911.nickharris.me/legal/lawyers-guild/</loc>
+    <lastmod>2020-10-12</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://not911.nickharris.me/mental-health/</loc>
+    <lastmod>2020-10-12</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://not911.nickharris.me/mental-health/CCCofElginMental/</loc>
+    <lastmod>2020-10-12</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://not911.nickharris.me/mental-health/UIC/</loc>
+    <lastmod>2020-10-12</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://not911.nickharris.me/mental-health/suicide-hotline/</loc>
+    <lastmod>2020-10-12</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://not911.nickharris.me/violence/</loc>
+    <lastmod>2020-10-12</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://not911.nickharris.me/violence/CCCofElgin/</loc>
+    <lastmod>2020-10-12</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://not911.nickharris.me/violence/national-domestic-violence-hotline/</loc>
     <lastmod>2020-10-12</lastmod>
   </url>
 </urlset>
