@@ -28,11 +28,11 @@ workbox.core.clientsClaim();
 self.__precacheManifest = [
   {
     "url": "404.html",
-    "revision": "d48e7ae10a946789d4a44104478a50e3"
+    "revision": "4907d7881e400ff989e559aed16e5b3c"
   },
   {
     "url": "about/index.html",
-    "revision": "0cd2055d70ccc85556331bb70cf5be3d"
+    "revision": "1fd1b512ef0ecfb48ed75e359a9bd92c"
   },
   {
     "url": "add-app/index.html",
@@ -44,7 +44,7 @@ self.__precacheManifest = [
   },
   {
     "url": "css/index.css",
-    "revision": "c63769ccad3d73374c7786decea06ed2"
+    "revision": "ca9b3ef86e472df06713a0ce2b0990fe"
   },
   {
     "url": "css/prism-base16-monokai.dark.css",
@@ -52,15 +52,15 @@ self.__precacheManifest = [
   },
   {
     "url": "drugs/index.html",
-    "revision": "094a0238eb1d9def26a24303853a927f"
+    "revision": "586e19bd5e5cf367f8599166d165ee45"
   },
   {
     "url": "drugs/poison-control/index.html",
-    "revision": "2afb96552fe0d6c7dacdc46eb0f4bd28"
+    "revision": "59d4960aaef3957c45aef3fbeca275e6"
   },
   {
     "url": "drugs/SAMHSA/index.html",
-    "revision": "b9911c968b1e46a1ddfd06ee4fc41e35"
+    "revision": "8335726363e3a55177f1d4ef6dc02398"
   },
   {
     "url": "feed/feed.json",
@@ -68,23 +68,23 @@ self.__precacheManifest = [
   },
   {
     "url": "homelessness/CCH/index.html",
-    "revision": "d399c55212efdbef935fafa5789e2344"
+    "revision": "e63bbfbaad966fec631c99f8e7659bbb"
   },
   {
     "url": "homelessness/chi-tenants/index.html",
-    "revision": "ac91ff2df4e85777078dc88fa22bf607"
+    "revision": "ef8a0ee2273d221024f0a8f26ffe2d8c"
   },
   {
     "url": "homelessness/ignite/index.html",
-    "revision": "aecd95242074b1670b2cecc3a7573d10"
+    "revision": "b92573791648a36f2167fbf180fa5bba"
   },
   {
     "url": "homelessness/index.html",
-    "revision": "e900328e91e00ea94ce9e5cc5f406883"
+    "revision": "8462e4e98f0f0a09acbede59ef6e00bc"
   },
   {
     "url": "how-to-add-app/index.html",
-    "revision": "f17ad2966fc4e906c506527d526a32ba"
+    "revision": "e1d337c75211d34610579b753f05b511"
   },
   {
     "url": "img/favicon.ico",
@@ -100,87 +100,87 @@ self.__precacheManifest = [
   },
   {
     "url": "index.html",
-    "revision": "25bcf2d156d42c4e25d5fcede03dab80"
+    "revision": "eef57f4ea570cb65e358122b4b470799"
   },
   {
     "url": "legal/community-bond-fund/index.html",
-    "revision": "e2ebf8c49cc500cdc6d656d0d4c99421"
+    "revision": "24378166e435d82fa8bd5a5fbe0ed708"
   },
   {
     "url": "legal/index.html",
-    "revision": "5dad39a77d2398e423a8e38555990828"
+    "revision": "021c4defa41503a7bcf10690f460f1ab"
   },
   {
     "url": "legal/lawyers-guild/index.html",
-    "revision": "af3649919a43bbeb1560a35442d992d6"
+    "revision": "36372e84f3dea545db534118e1567ef0"
   },
   {
     "url": "mental-health/CCCofElginMental/index.html",
-    "revision": "843b1b45b37e38f5e6f118fc549fdb31"
+    "revision": "37cd6c6d2150d30b5a4a8c4a89c71aaf"
   },
   {
     "url": "mental-health/index.html",
-    "revision": "280826fddb09d526ed7700d9b97aa932"
+    "revision": "0fe799fd379db4ef386f9691398e3222"
   },
   {
     "url": "mental-health/suicide-hotline/index.html",
-    "revision": "9ed812f2765e6f6bf18d6809875ce478"
+    "revision": "4b34e13e90d0c6fca7869e7b5736b199"
   },
   {
     "url": "mental-health/UIC/index.html",
-    "revision": "b2b2d2ba721d30209a60d29e645b47a7"
+    "revision": "8100c58270e673664204b0eb5d126f97"
   },
   {
     "url": "page-list/1/index.html",
-    "revision": "6d0afa0f01cea93587d12d3acea5a4fc"
+    "revision": "b79c1abda1fc4a1e82025f9f8b78db22"
   },
   {
     "url": "page-list/index.html",
-    "revision": "6191d0da4b76cbfd888c401720ee0639"
+    "revision": "b7728e440c7ffb34e6372beccab7055e"
   },
   {
     "url": "posts/firstpost/index.html",
-    "revision": "0b3916c32fb094f6f824ce5c9fdd15a7"
+    "revision": "555996fa6778f50ba60b77829b199d46"
   },
   {
     "url": "posts/index.html",
-    "revision": "4b9d4045e58e9cca2db209588f282fd0"
+    "revision": "81939c6f71e442a094b001589c722cf0"
   },
   {
     "url": "tags/drugs/index.html",
-    "revision": "2bdb37a0d5ff05fdf679c9c8c9bbbca1"
+    "revision": "d395c283c9b1620355bd9358eeb143ed"
   },
   {
     "url": "tags/homelessness/index.html",
-    "revision": "bec9de106a4feabe6664bfaeb01b7151"
+    "revision": "592c74acd3a58bdb98d09921907b296d"
   },
   {
     "url": "tags/index.html",
-    "revision": "9f2d0e0126ef55f60cd5e3ed32891d1b"
+    "revision": "8247a40adc522b5a7c4c5dbc03d1e352"
   },
   {
     "url": "tags/legal/index.html",
-    "revision": "2361f9d0757acb25c88c6df8f66435d0"
+    "revision": "4e37f3d64c52ead623c45ee03b04ed23"
   },
   {
     "url": "tags/mental/index.html",
-    "revision": "4554063b5ef5913adfdc1f6030b703b5"
+    "revision": "7043594673eea3b2d1a8bcc27b21bb4c"
   },
   {
     "url": "tags/violence/index.html",
-    "revision": "445b33295b5abd68047b321856906e42"
+    "revision": "aa8cfbf7dbfdcb1e042a774d1f8a537c"
   },
   {
     "url": "violence/CCCofElgin/index.html",
-    "revision": "10df8b36038237740a68c0624ce447c7"
+    "revision": "d4246175d7680fb78cae15222353d737"
   },
   {
     "url": "violence/index.html",
-    "revision": "f514de84c8eed6d3713030d6e7f604a0"
+    "revision": "097176879b34854a375cb5f6c9143dcb"
   },
   {
     "url": "violence/national-domestic-violence-hotline/index.html",
-    "revision": "f735cae5a06f9e3f469048034f59ca31"
+    "revision": "1cd625a84a29c7ee9a8a5dc98d8fd6b6"
   }
 ].concat(self.__precacheManifest || []);
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});

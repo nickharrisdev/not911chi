@@ -287,6 +287,11 @@ pre {
   padding: 10px;
 }
 
+.add-link-container {
+  display: flex;
+  align-items: center;
+}
+
 .add-button-ios {
   overflow: hidden;
   position: fixed;
@@ -298,6 +303,8 @@ pre {
   font-size: 16px;
   border: none;
   padding: 10px;
+  text-decoration: none;
+  text-align: center;
 }
 
 .ios-help-img {
