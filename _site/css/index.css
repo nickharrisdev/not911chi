@@ -244,6 +244,10 @@ pre {
   border-radius: 100%;
 }
 
+.resource-list {
+  margin-bottom: 30px;
+}
+
 .resource-container {
   display: flex;
   flex-direction: column;
@@ -268,6 +272,19 @@ pre {
 
 .resource-title {
   color: rgb(116, 196, 116);
+}
+
+.add-button {
+  overflow: hidden;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  color: white;
+  background-color: blueviolet;
+  font-family: "Inconsolata", monospace;
+  font-size: 16px;
+  border: none;
+  padding: 10px;
 }
 
 /* Tags */
