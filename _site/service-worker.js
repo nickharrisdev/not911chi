@@ -44,7 +44,7 @@ self.__precacheManifest = [
   },
   {
     "url": "css/index.css",
-    "revision": "ca9b3ef86e472df06713a0ce2b0990fe"
+    "revision": "7f0f62abb977f44f185ae795a0f0dfee"
   },
   {
     "url": "css/prism-base16-monokai.dark.css",
@@ -84,7 +84,7 @@ self.__precacheManifest = [
   },
   {
     "url": "how-to-add-app/index.html",
-    "revision": "e1d337c75211d34610579b753f05b511"
+    "revision": "c7570bc95e5302372012b656ef96b80b"
   },
   {
     "url": "img/favicon.ico",
@@ -136,7 +136,7 @@ self.__precacheManifest = [
   },
   {
     "url": "page-list/index.html",
-    "revision": "b7728e440c7ffb34e6372beccab7055e"
+    "revision": "b1af888056ba5398e0772aec331fe5f7"
   },
   {
     "url": "posts/firstpost/index.html",
@@ -156,7 +156,7 @@ self.__precacheManifest = [
   },
   {
     "url": "tags/index.html",
-    "revision": "8247a40adc522b5a7c4c5dbc03d1e352"
+    "revision": "72d1e5574b7891a0e0a26be44bbe250f"
   },
   {
     "url": "tags/legal/index.html",

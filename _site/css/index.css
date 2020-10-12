@@ -312,6 +312,11 @@ pre {
   width: 100%;
 }
 
+.add-app-content {
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
 /* Tags */
 .post-tag {
   display: inline-block;
