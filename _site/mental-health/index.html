@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Not 911 Chicago</title>
+    <meta name="description" content="Providing alternatives to dialing 911 in Non-Emergency situations">
+    <link rel="manifest" href="/manifest.webmanifest"/>
+    <link rel="stylesheet" href="/css/index.css">
+    <link rel="stylesheet" href="/css/prism-base16-monokai.dark.css">
+    <link rel="alternate" href="/feed/feed.xml" type="application/atom+xml" title="Not 911 Chicago">
+    <link rel="alternate" href="/feed/feed.json" type="application/json" title="Not 911 Chicago">
+    <link href='https://fonts.googleapis.com/css?family=Lora' rel='stylesheet'>
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@500&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="https://not911.s3.ca-central-1.amazonaws.com/favicon.ico">
+    <script>
+      if ("serviceWorker" in navigator) {
+        navigator
+          .serviceWorker
+          .register("/service-worker.js")
+          .then(function () {
+            console.log("ServiceWorker has been registered!");
+          })
+          .catch(console.error);
+      }
+    </script>
+  </head>
+  <body>
+    <div class="content-container">
+      <header>
+        <h1 class="home">
+          <a class="rainbow-text" href="/">Not 911 Chicago</a>
+        </h1>
+      </header>
+
+      <main>
+        <div class="bl-container">
+  <a class="back-link" href="/">< back</a>
+</div>
+<h1 class="collection-title">Mental Health</h1>
+
+
+<div class="resource-list">
+  
+    <div class="resource-container">
+      <h2 class="resource-title">Community Crisis Center of Elgin</h2><!-- TODO: add link to show more info -->
+        <h3>En Espanol - (847) 697-9740</h3><p>24 hour access</p>
+      <p>(847) 697-2380</p>
+      <a href="tel:(847) 697-2380" alt="Call Community Crisis Center of Elgin" class="phone-link"><img src="../img/phone-icon.svg"/></a>
+      <br>
+    </div>
+  
+    <div class="resource-container">
+      <h2 class="resource-title">National Suicide Hotline</h2><p>24 hour access</p>
+      <p>800-273-8255</p>
+      <a href="tel:800-273-8255" alt="Call National Suicide Hotline" class="phone-link"><img src="../img/phone-icon.svg"/></a>
+      <br>
+    </div>
+  
+    <div class="resource-container">
+      <h2 class="resource-title">UIC In Touch Crisis Hotline</h2><!-- TODO: add link to show more info -->
+        <h3>Crisis intervention, counseling, and referral services</h3><p>6 p.m. – 10:30 p.m., Sunday – Friday</p>
+      <p>(312) 996-5535</p>
+      <a href="tel:(312) 996-5535" alt="Call UIC In Touch Crisis Hotline" class="phone-link"><img src="../img/phone-icon.svg"/></a>
+      <br>
+    </div>
+  
+</div>
+
+      </main>
+
+      <footer></footer>
+
+      <!-- Current page: /mental-health/ -->
+    </div>
+  </body>
+</html>

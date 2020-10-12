@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Illinois Poison Control</title>
+    <meta name="description" content="Providing alternatives to dialing 911 in Non-Emergency situations">
+    <link rel="manifest" href="/manifest.webmanifest"/>
+    <link rel="stylesheet" href="/css/index.css">
+    <link rel="stylesheet" href="/css/prism-base16-monokai.dark.css">
+    <link rel="alternate" href="/feed/feed.xml" type="application/atom+xml" title="Not 911 Chicago">
+    <link rel="alternate" href="/feed/feed.json" type="application/json" title="Not 911 Chicago">
+    <link href='https://fonts.googleapis.com/css?family=Lora' rel='stylesheet'>
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@500&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="https://not911.s3.ca-central-1.amazonaws.com/favicon.ico">
+    <script>
+      if ("serviceWorker" in navigator) {
+        navigator
+          .serviceWorker
+          .register("/service-worker.js")
+          .then(function () {
+            console.log("ServiceWorker has been registered!");
+          })
+          .catch(console.error);
+      }
+    </script>
+  </head>
+  <body>
+    <div class="content-container">
+      <header>
+        <h1 class="home">
+          <a class="rainbow-text" href="/">Not 911 Chicago</a>
+        </h1>
+      </header>
+
+      <main>
+        <h1>Illinois Poison Control</h1>
+<h2></h2>
+<p>24 hour access</p>
+<p>(800) 222-1222</p>
+<br>
+      </main>
+
+      <footer></footer>
+
+      <!-- Current page: /drugs/poison-control/ -->
+    </div>
+  </body>
+</html>
