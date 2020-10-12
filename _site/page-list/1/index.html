@@ -69,12 +69,17 @@
     <td><a href="/violence/national-domestic-violence-hotline/"><code>/violence/national-domestic-violence-hotline/</code></a></td>
     <td>National Domestic Violence Hotline</td>
   </tr>
+  <tr>
+    <td><a href="/how-to-add-app/"><code>/how-to-add-app/</code></a></td>
+    <td></td>
+  </tr>
   </tbody>
 </table>
 
 
       </main>
       <button class="add-button">Add to home screen</button>
+      <a href="/how-to-add-app" class="add-button-ios">Add to home screen</a>
       <footer></footer>
 
       <!-- Current page: /page-list/1/ -->
@@ -82,6 +87,8 @@
     <script>
       let deferredPrompt;
       const addBtn = document.querySelector('.add-button');
+      const addBtnIos = document.querySelector('.add-button-ios');
+      addBtnIos.style.display = 'none';
       addBtn.style.display = 'none';
       window.addEventListener('beforeinstallprompt', (e) => {
         // Prevent Chrome 67 and earlier from automatically showing the prompt
@@ -109,6 +116,23 @@
             });
         });
       });
+      const isIos = () => {
+        const userAgent = window
+          .navigator
+          .userAgent
+          .toLowerCase();
+        console.log(/iphone|ipad|ipod/.test(userAgent))
+        return /iphone|ipad|ipod/.test(userAgent);
+      }
+      // Detects if device is in standalone mode
+      const isInStandaloneMode = () => ('standalone' in window.navigator) && (window.navigator.standalone);
+
+      // Checks if should display install popup notification:
+      if (isIos() && !isInStandaloneMode()) {
+        // offer app installation here
+        addBtnIos.style.display = 'block';
+        // link to menu explaining how to install
+      }
     </script>
   </body>
 </html>
