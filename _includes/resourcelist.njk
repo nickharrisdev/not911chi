@@ -1,7 +1,15 @@
-{% for resource in resourcelist %}
-  <h1>{{ resource.data.title }}</h1>
-  <h2>{{ resource.data.description }}</h2>
-  <p>{{ resource.data.hours }}</p>
-  <p>{{ resource.data.phone }}</p>
-  <br>
-{% endfor %}
+<div class="resource-list">
+  {% for resource in resourcelist %}
+    <div class="resource-container">
+      <h2 class="resource-title">{{ resource.data.title }}</h2>
+      {%- if resource.data.description.length > 1 -%}
+        <!-- TODO: add link to show more info -->
+        <h3>{{ resource.data.description }}</h3>
+      {%- endif -%}
+      <p>{{ resource.data.hours }}</p>
+      <p>{{ resource.data.phone }}</p>
+      <a href="tel:{{ resource.data.phone }}" alt="Call {{ resource.data.title }}" class="phone-link"><img src="../img/phone-icon.svg"/></a>
+      <br>
+    </div>
+  {% endfor %}
+</div>
