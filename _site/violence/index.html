@@ -12,7 +12,7 @@
     <link rel="alternate" href="/feed/feed.json" type="application/json" title="Not 911 Chicago">
     <link href='https://fonts.googleapis.com/css?family=Lora' rel='stylesheet'>
     <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@500&display=swap" rel="stylesheet">
-    <link rel="apple-touch-icon" href="img/N911logo.png">
+    <link rel="apple-touch-icon" href="https://not911.s3.ca-central-1.amazonaws.com/N911logo.png">
     <link rel="shortcut icon" href="https://not911.s3.ca-central-1.amazonaws.com/favicon.ico">
     <script>
       if ("serviceWorker" in navigator) {
@@ -24,6 +24,17 @@
           })
           .catch(console.error);
       }
+    </script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async="async" src="https://www.googletagmanager.com/gtag/js?id=G-V06BMZLDDQ"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag('js', new Date());
+
+      gtag('config', 'G-V06BMZLDDQ');
     </script>
   </head>
   <body>
