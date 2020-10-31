@@ -2,14 +2,16 @@
   {% for resource in resourcelist %}
     <div class="resource-container">
       <h2 class="resource-title">{{ resource.data.title }}</h2>
-      {%- if resource.data.description.length > 1 -%}
-        <!-- TODO: add link to show more info -->
-        <h3>{{ resource.data.description }}</h3>
-      {%- endif -%}
+      <a href="tel:{{ resource.data.phone }}" alt="Call {{ resource.data.title }}" class="phone-link"><img src="../img/phone-icon.svg"/></a>
       <p>{{ resource.data.hours }}</p>
       <p>{{ resource.data.phone }}</p>
-      <a href="tel:{{ resource.data.phone }}" alt="Call {{ resource.data.title }}" class="phone-link"><img src="../img/phone-icon.svg"/></a>
-      <br>
+      {%- if resource.data.description.length > 0 -%}
+        <!-- TODO: add link to show more info -->
+        <button class="accordion">More info</button>
+        <div class="panel">
+          <p>{{ resource.data.description }}</p>
+        </div>
+      {%- endif -%}
     </div>
   {% endfor %}
 </div>

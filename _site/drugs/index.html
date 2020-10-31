@@ -55,19 +55,20 @@
 <div class="resource-list">
   
     <div class="resource-container">
-      <h2 class="resource-title">SAMHSA National Helpline</h2><!-- TODO: add link to show more info -->
-        <h3>Substance Abuse and Mental Health Services Administration&#39;s treatment referral and information service (in English and Spanish) for individuals and families facing mental and/or substance use disorders.</h3><p>24 hour access</p>
-      <p>1(800)662-4357</p>
+      <h2 class="resource-title">SAMHSA National Helpline</h2>
       <a href="tel:1(800)662-4357" alt="Call SAMHSA National Helpline" class="phone-link"><img src="../img/phone-icon.svg"/></a>
-      <br>
-    </div>
+      <p>24 hour access</p>
+      <p>1(800)662-4357</p><!-- TODO: add link to show more info -->
+        <button class="accordion">More info</button>
+        <div class="panel">
+          <p>Substance Abuse and Mental Health Services Administration&#39;s treatment referral and information service (in English and Spanish) for individuals and families facing mental and/or substance use disorders.</p>
+        </div></div>
   
     <div class="resource-container">
-      <h2 class="resource-title">Illinois Poison Control</h2><p>24 hour access</p>
-      <p>(800) 222-1222</p>
+      <h2 class="resource-title">Illinois Poison Control</h2>
       <a href="tel:(800) 222-1222" alt="Call Illinois Poison Control" class="phone-link"><img src="../img/phone-icon.svg"/></a>
-      <br>
-    </div>
+      <p>24 hour access</p>
+      <p>(800) 222-1222</p></div>
   
 </div>
 
@@ -128,6 +129,24 @@
         // offer app installation here
         addBtnIos.style.display = 'block';
         // link to menu explaining how to install
+      }
+    </script>
+    <script>
+      var acc = document.getElementsByClassName("accordion");
+      var i;
+
+      for (i = 0; i < acc.length; i++) {
+        acc[i].addEventListener("click", function () {
+          this
+            .classList
+            .toggle("active");
+          var panel = this.nextElementSibling;
+          if (panel.style.maxHeight) {
+            panel.style.maxHeight = null;
+          } else {
+            panel.style.maxHeight = panel.scrollHeight + "px";
+          }
+        });
       }
     </script>
   </body>

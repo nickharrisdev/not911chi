@@ -55,27 +55,30 @@
 <div class="resource-list">
   
     <div class="resource-container">
-      <h2 class="resource-title">Community Crisis Center of Elgin</h2><!-- TODO: add link to show more info -->
-        <h3>En Espanol - (847) 697-9740</h3><p>24 hour access</p>
-      <p>(847) 697-2380</p>
+      <h2 class="resource-title">Community Crisis Center of Elgin</h2>
       <a href="tel:(847) 697-2380" alt="Call Community Crisis Center of Elgin" class="phone-link"><img src="../img/phone-icon.svg"/></a>
-      <br>
-    </div>
+      <p>24 hour access</p>
+      <p>(847) 697-2380</p><!-- TODO: add link to show more info -->
+        <button class="accordion">More info</button>
+        <div class="panel">
+          <p>En Espanol - (847) 697-9740</p>
+        </div></div>
   
     <div class="resource-container">
-      <h2 class="resource-title">UIC In Touch Crisis Hotline</h2><!-- TODO: add link to show more info -->
-        <h3>Crisis intervention, counseling, and referral services</h3><p>6 p.m. – 10:30 p.m., Sunday – Friday</p>
-      <p>(312) 996-5535</p>
+      <h2 class="resource-title">UIC In Touch Crisis Hotline</h2>
       <a href="tel:(312) 996-5535" alt="Call UIC In Touch Crisis Hotline" class="phone-link"><img src="../img/phone-icon.svg"/></a>
-      <br>
-    </div>
+      <p>6 p.m. – 10:30 p.m., Sunday – Friday</p>
+      <p>(312) 996-5535</p><!-- TODO: add link to show more info -->
+        <button class="accordion">More info</button>
+        <div class="panel">
+          <p>Crisis intervention, counseling, and referral services</p>
+        </div></div>
   
     <div class="resource-container">
-      <h2 class="resource-title">National Suicide Hotline</h2><p>24 hour access</p>
-      <p>800-273-8255</p>
+      <h2 class="resource-title">National Suicide Hotline</h2>
       <a href="tel:800-273-8255" alt="Call National Suicide Hotline" class="phone-link"><img src="../img/phone-icon.svg"/></a>
-      <br>
-    </div>
+      <p>24 hour access</p>
+      <p>800-273-8255</p></div>
   
 </div>
 
@@ -136,6 +139,24 @@
         // offer app installation here
         addBtnIos.style.display = 'block';
         // link to menu explaining how to install
+      }
+    </script>
+    <script>
+      var acc = document.getElementsByClassName("accordion");
+      var i;
+
+      for (i = 0; i < acc.length; i++) {
+        acc[i].addEventListener("click", function () {
+          this
+            .classList
+            .toggle("active");
+          var panel = this.nextElementSibling;
+          if (panel.style.maxHeight) {
+            panel.style.maxHeight = null;
+          } else {
+            panel.style.maxHeight = panel.scrollHeight + "px";
+          }
+        });
       }
     </script>
   </body>

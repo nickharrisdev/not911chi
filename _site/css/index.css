@@ -241,11 +241,13 @@ pre {
 .phone-link {
   background-color: rgb(116, 196, 116);
   padding: 10px;
+  margin: 10px;
   border-radius: 100%;
 }
 
 .resource-list {
   margin-bottom: 30px;
+  text-align: center;
 }
 
 .resource-container {
@@ -333,6 +335,35 @@ pre {
 a[href].post-tag,
 a[href].post-tag:visited {
   color: white;
+}
+
+/* Accordian style */
+
+.accordion {
+  cursor: pointer;
+  background-color: black;
+  font: 400 16px Inconsolata;
+  color: white;
+  padding: 5px;
+  margin: 10px;
+  width: 100px;
+  border: 1px dashed blueviolet;
+  text-align: center;
+  outline: none;
+  transition: 0.4s;
+}
+
+.active,
+.accordion:hover {
+  background-color: #ccc;
+  color: black;
+}
+
+.panel {
+  padding: 0 18px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
 }
 
 /* Warning */
