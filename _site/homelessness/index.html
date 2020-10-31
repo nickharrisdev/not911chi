@@ -55,28 +55,34 @@
 <div class="resource-list">
   
     <div class="resource-container">
-      <h2 class="resource-title">Chicago Coalition for the Homeless Law Project hotline</h2><!-- TODO: add link to show more info -->
-        <h3>Toll free legal advice for the homeless or at-risk.</h3><p>Monday - Friday</p>
-      <p>1-800-940-1119</p>
+      <h2 class="resource-title">Chicago Coalition for the Homeless Law Project hotline</h2>
       <a href="tel:1-800-940-1119" alt="Call Chicago Coalition for the Homeless Law Project hotline" class="phone-link"><img src="../img/phone-icon.svg"/></a>
-      <br>
-    </div>
+      <p>Monday - Friday</p>
+      <p>1-800-940-1119</p><!-- TODO: add link to show more info -->
+        <button class="accordion">More info</button>
+        <div class="panel">
+          <p>Toll free legal advice for the homeless or at-risk.</p>
+        </div></div>
   
     <div class="resource-container">
-      <h2 class="resource-title">Chicago Tenants Movement Hotline</h2><!-- TODO: add link to show more info -->
-        <h3>Evictions are immoral. Community stops evictions.</h3><p>Wednesday-Sunday Morning - 10am-2pm, Evening - 5-9pm</p>
-      <p>773-657-8700</p>
+      <h2 class="resource-title">Chicago Tenants Movement Hotline</h2>
       <a href="tel:773-657-8700" alt="Call Chicago Tenants Movement Hotline" class="phone-link"><img src="../img/phone-icon.svg"/></a>
-      <br>
-    </div>
+      <p>Wednesday-Sunday Morning - 10am-2pm, Evening - 5-9pm</p>
+      <p>773-657-8700</p><!-- TODO: add link to show more info -->
+        <button class="accordion">More info</button>
+        <div class="panel">
+          <p>Evictions are immoral. Community stops evictions.</p>
+        </div></div>
   
     <div class="resource-container">
-      <h2 class="resource-title">Ignite</h2><!-- TODO: add link to show more info -->
-        <h3>Housing Helpline open to young people age 14-26. LGBTQ+ affirming. Text - (312) 625-1858</h3><p>24 hour access</p>
-      <p>1 (866) 803-8336</p>
+      <h2 class="resource-title">Ignite</h2>
       <a href="tel:1 (866) 803-8336" alt="Call Ignite" class="phone-link"><img src="../img/phone-icon.svg"/></a>
-      <br>
-    </div>
+      <p>24 hour access</p>
+      <p>1 (866) 803-8336</p><!-- TODO: add link to show more info -->
+        <button class="accordion">More info</button>
+        <div class="panel">
+          <p>Housing Helpline open to young people age 14-26. LGBTQ+ affirming. Text - (312) 625-1858</p>
+        </div></div>
   
 </div>
 
@@ -137,6 +143,24 @@
         // offer app installation here
         addBtnIos.style.display = 'block';
         // link to menu explaining how to install
+      }
+    </script>
+    <script>
+      var acc = document.getElementsByClassName("accordion");
+      var i;
+
+      for (i = 0; i < acc.length; i++) {
+        acc[i].addEventListener("click", function () {
+          this
+            .classList
+            .toggle("active");
+          var panel = this.nextElementSibling;
+          if (panel.style.maxHeight) {
+            panel.style.maxHeight = null;
+          } else {
+            panel.style.maxHeight = panel.scrollHeight + "px";
+          }
+        });
       }
     </script>
   </body>

@@ -55,20 +55,24 @@
 <div class="resource-list">
   
     <div class="resource-container">
-      <h2 class="resource-title">Chicago Community Bond Fund</h2><!-- TODO: add link to show more info -->
-        <h3>A revolving fund that pays bond for people charged with crimes in Cook County.</h3><p></p>
-      <p>1-844-363-2663</p>
+      <h2 class="resource-title">Chicago Community Bond Fund</h2>
       <a href="tel:1-844-363-2663" alt="Call Chicago Community Bond Fund" class="phone-link"><img src="../img/phone-icon.svg"/></a>
-      <br>
-    </div>
+      <p></p>
+      <p>1-844-363-2663</p><!-- TODO: add link to show more info -->
+        <button class="accordion">More info</button>
+        <div class="panel">
+          <p>A revolving fund that pays bond for people charged with crimes in Cook County.</p>
+        </div></div>
   
     <div class="resource-container">
-      <h2 class="resource-title">Chicago National Lawyer Guild Hotline</h2><!-- TODO: add link to show more info -->
-        <h3>Criminal defense for activists</h3><p></p>
-      <p>773-309-1198</p>
+      <h2 class="resource-title">Chicago National Lawyer Guild Hotline</h2>
       <a href="tel:773-309-1198" alt="Call Chicago National Lawyer Guild Hotline" class="phone-link"><img src="../img/phone-icon.svg"/></a>
-      <br>
-    </div>
+      <p></p>
+      <p>773-309-1198</p><!-- TODO: add link to show more info -->
+        <button class="accordion">More info</button>
+        <div class="panel">
+          <p>Criminal defense for activists</p>
+        </div></div>
   
 </div>
 
@@ -129,6 +133,24 @@
         // offer app installation here
         addBtnIos.style.display = 'block';
         // link to menu explaining how to install
+      }
+    </script>
+    <script>
+      var acc = document.getElementsByClassName("accordion");
+      var i;
+
+      for (i = 0; i < acc.length; i++) {
+        acc[i].addEventListener("click", function () {
+          this
+            .classList
+            .toggle("active");
+          var panel = this.nextElementSibling;
+          if (panel.style.maxHeight) {
+            panel.style.maxHeight = null;
+          } else {
+            panel.style.maxHeight = panel.scrollHeight + "px";
+          }
+        });
       }
     </script>
   </body>
