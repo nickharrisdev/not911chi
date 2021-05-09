@@ -2,22 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://not911.nickharris.me/posts/firstpost/</loc>
-    <lastmod>2020-08-12</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://not911.nickharris.me/about/</loc>
-    <lastmod>2020-12-07</lastmod>
-  </url>
-  
-  <url>
     <loc>https://not911.nickharris.me/how-to-add-app/</loc>
-    <lastmod>2020-12-07</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://not911.nickharris.me/posts/</loc>
     <lastmod>2020-12-07</lastmod>
   </url>
   
@@ -93,41 +78,6 @@
   
   <url>
     <loc>https://not911.nickharris.me/</loc>
-    <lastmod>2020-12-07</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://not911.nickharris.me/page-list/</loc>
-    <lastmod>2020-12-07</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://not911.nickharris.me/tags/</loc>
-    <lastmod>2020-12-07</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://not911.nickharris.me/tags/drugs/</loc>
-    <lastmod>2020-12-07</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://not911.nickharris.me/tags/homelessness/</loc>
-    <lastmod>2020-12-07</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://not911.nickharris.me/tags/mental/</loc>
-    <lastmod>2020-12-07</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://not911.nickharris.me/tags/legal/</loc>
-    <lastmod>2020-12-07</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://not911.nickharris.me/tags/violence/</loc>
     <lastmod>2020-12-07</lastmod>
   </url>
   

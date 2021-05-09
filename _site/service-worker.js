@@ -31,10 +31,6 @@ self.__precacheManifest = [
     "revision": "f0aeb2c1935a3b8a0d1e5dc03a78c096"
   },
   {
-    "url": "about/index.html",
-    "revision": "0a89819941b8f5d5d949cf4100696a34"
-  },
-  {
     "url": "css/index.css",
     "revision": "21697ee58638fd19c09b0d4db057194c"
   },
@@ -48,7 +44,7 @@ self.__precacheManifest = [
   },
   {
     "url": "feed/feed.json",
-    "revision": "385fd6abbb2aff21e5ce0f0a96b711b1"
+    "revision": "c23238740301fcb20852d064e333de57"
   },
   {
     "url": "homelessness/index.html",
@@ -81,46 +77,6 @@ self.__precacheManifest = [
   {
     "url": "mental-health/index.html",
     "revision": "8ec6542c6f372ec1cceb14da8200504e"
-  },
-  {
-    "url": "page-list/1/index.html",
-    "revision": "1321832ce7d8263f9fd0ac2c47670ee1"
-  },
-  {
-    "url": "page-list/index.html",
-    "revision": "7345e896b93c468164bdf36c48427629"
-  },
-  {
-    "url": "posts/firstpost/index.html",
-    "revision": "6ff6e3b36a91c393e5360c964aebb001"
-  },
-  {
-    "url": "posts/index.html",
-    "revision": "0717c305ab2f342cbfd16478795cb9fb"
-  },
-  {
-    "url": "tags/drugs/index.html",
-    "revision": "b288830d0d15f64e32100e2758b3555c"
-  },
-  {
-    "url": "tags/homelessness/index.html",
-    "revision": "0416f6847470de74e63fccdb92c81a62"
-  },
-  {
-    "url": "tags/index.html",
-    "revision": "370fd544ff699ca99234fd8c971c0465"
-  },
-  {
-    "url": "tags/legal/index.html",
-    "revision": "d9e95af3bc5c943c9e4753b60414cf64"
-  },
-  {
-    "url": "tags/mental/index.html",
-    "revision": "26fb5f8ca9435059274a7afefab0ac01"
-  },
-  {
-    "url": "tags/violence/index.html",
-    "revision": "d2161c62ac31b2ad383a526cedca1354"
   },
   {
     "url": "violence/index.html",

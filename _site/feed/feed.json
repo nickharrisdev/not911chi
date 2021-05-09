@@ -8,12 +8,6 @@
     "name": "Nick Harris",
     "url": "nickharris.me"
   },
-  "items": [{
-      "id": "https://not911.nickharris.me/posts/firstpost/",
-      "url": "https://not911.nickharris.me/posts/firstpost/",
-      "title": "Hello World!",
-      "content_html": "",
-      "date_published": "2020-08-12T00:00:00Z"
-    }
+  "items": [
   ]
 }
