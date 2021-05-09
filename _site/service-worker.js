@@ -32,7 +32,7 @@ self.__precacheManifest = [
   },
   {
     "url": "about/index.html",
-    "revision": "078bd2487f37eadb82d821fb11da7217"
+    "revision": "f0fed0a829b4e4a3cdeaeb7e517264b4"
   },
   {
     "url": "css/index.css",
@@ -56,7 +56,7 @@ self.__precacheManifest = [
   },
   {
     "url": "feed/feed.json",
-    "revision": "e7afea726c698200f5ec5a47ad7b0f64"
+    "revision": "385fd6abbb2aff21e5ce0f0a96b711b1"
   },
   {
     "url": "homelessness/CCH/index.html",
@@ -124,11 +124,11 @@ self.__precacheManifest = [
   },
   {
     "url": "page-list/1/index.html",
-    "revision": "214a788275494105f362e784a79bf278"
+    "revision": "f315543aa0166d58a57414627183b270"
   },
   {
     "url": "page-list/index.html",
-    "revision": "f80b7fa21f06f325e421e7153ad2f167"
+    "revision": "e1ce88ce62dd958a6ba53f947632de8a"
   },
   {
     "url": "posts/firstpost/index.html",
@@ -140,11 +140,11 @@ self.__precacheManifest = [
   },
   {
     "url": "tags/drugs/index.html",
-    "revision": "dbfe297f94e22f28f10ba7277b604c10"
+    "revision": "a23e902c324c9643a97c48011ae5d8e6"
   },
   {
     "url": "tags/homelessness/index.html",
-    "revision": "9030ddbe95ddf3ecafdb25f16fbacac7"
+    "revision": "01d7698b1adb861fc72d8560838459a9"
   },
   {
     "url": "tags/index.html",
@@ -152,15 +152,15 @@ self.__precacheManifest = [
   },
   {
     "url": "tags/legal/index.html",
-    "revision": "95942dcf7f3e9177ddd97c1b704fee9a"
+    "revision": "b926886fa77d31def49564620d08bb0a"
   },
   {
     "url": "tags/mental/index.html",
-    "revision": "df141174ab821c9ece7deb71fe0a1e2b"
+    "revision": "1797f72486377809eb7224ad997b15db"
   },
   {
     "url": "tags/violence/index.html",
-    "revision": "2a1f72613c7a2921223b2eb0c286d490"
+    "revision": "fe4f3e1c6f55e31aea3190a1275943a4"
   },
   {
     "url": "violence/CCCofElgin/index.html",
