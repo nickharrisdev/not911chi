@@ -7,6 +7,8 @@
   --navy: #17050f;
   --blue: #082840;
   --white: #fff;
+  --secondary:#e3f1f8;
+  --tertiary: #082840;
 }
 * {
   box-sizing: border-box;
@@ -15,7 +17,7 @@ html,
 body {
   padding: 0;
   margin: 0;
-  font-family: "Inconsolata", monospace;
+  font-family: "Roboto", monospace;
   color: var(--white);
   background-color: black;
 }
@@ -63,7 +65,7 @@ main :first-child {
   margin-top: 0;
 }
 header {
-  border-bottom: 1px dashed var(--lightgray);
+  border-bottom: 2px dashed var(--lightgray);
   display: flex;
   justify-content: center;
 }
@@ -86,7 +88,7 @@ table th {
 
 pre,
 code {
-  font-family: "Inconsolata", monospace;
+  font-family: "Roboto", monospace;
   line-height: 1.5;
 }
 pre {
@@ -229,7 +231,7 @@ pre {
 .entry-link {
   width: 100%;
   height: 40px;
-  background-color: blueviolet;
+  background-color: var(--tertiary);
   padding-top: 10px;
   padding-left: 10px;
   text-decoration: none;
@@ -239,10 +241,15 @@ pre {
 }
 
 .phone-link {
-  background-color: rgb(116, 196, 116);
+  background-color: var(--tertiary);
   padding: 10px;
   margin: 10px;
   border-radius: 100%;
+}
+
+.phone-link > img {
+  height: 50px;
+  width: 50px;
 }
 
 .resource-list {
@@ -268,12 +275,12 @@ pre {
 }
 
 .collection-title {
-  border: 1px dashed blueviolet;
+  border: 2px dashed var(--tertiary);
   padding: 10px;
 }
 
 .resource-title {
-  color: rgb(116, 196, 116);
+  color: var(--secondary);
 }
 
 .add-button {
@@ -282,8 +289,8 @@ pre {
   bottom: 0;
   width: 100%;
   color: white;
-  background-color: blueviolet;
-  font-family: "Inconsolata", monospace;
+  background-color: var(--tertiary);
+  font-family: "Roboto", monospace;
   font-size: 16px;
   border: none;
   padding: 10px;
@@ -300,8 +307,8 @@ pre {
   bottom: 0;
   width: 100%;
   color: white;
-  background-color: blueviolet;
-  font-family: "Inconsolata", monospace;
+  background-color: var(--tertiary);
+  font-family: "Roboto", monospace;
   font-size: 16px;
   border: none;
   padding: 10px;
@@ -342,12 +349,12 @@ a[href].post-tag:visited {
 .accordion {
   cursor: pointer;
   background-color: black;
-  font: 400 16px Inconsolata;
+  font: 400 16px Roboto;
   color: white;
   padding: 5px;
   margin: 10px;
   width: 100px;
-  border: 1px dashed blueviolet;
+  border: 2px dashed var(--tertiary);
   text-align: center;
   outline: none;
   transition: 0.4s;
@@ -377,7 +384,7 @@ a[href].post-tag:visited {
 
 /* Direct Links / Markdown Headers */
 .direct-link {
-  font-family: "Inconsolata", monospace;
+  font-family: "Roboto", monospace;
   text-decoration: none;
   font-style: normal;
   margin-left: 0.1em;

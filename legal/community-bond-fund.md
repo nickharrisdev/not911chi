@@ -4,5 +4,5 @@ description: A revolving fund that pays bond for people charged with crimes in C
 hours:
 phone: 1-844-363-2663
 website: https://chicagobond.org/the-revolving-fund/
-layout: layouts/resource.njk
+permalink: false
 ---

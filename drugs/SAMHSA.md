@@ -4,5 +4,5 @@ description: Substance Abuse and Mental Health Services Administration's treatme
 hours: 24 hour access
 phone: 1(800)662-4357
 website: https://www.samhsa.gov/find-help/national-helpline
-layout: layouts/resource.njk
+permalink: false
 ---
